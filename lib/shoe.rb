@@ -9,8 +9,8 @@ class Shoe
       @brand
     end
 
-  def cobble
-   self.condition = "new"
+  def cobble  #no arguments needed
+   self.condition = "new"  #changes the condition of the shoe calling method
     puts "Your shoe is as good as new!"
 
   end
